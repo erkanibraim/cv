@@ -1,0 +1,160 @@
+body {
+    color: #40514E;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    }
+
+h1 {
+    margin: 50px auto 0px auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem; /* note: 'rem' not the same as 'em' */
+    color: #3342C4;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #2665BD;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #3342C4;
+    text-align: left;
+    font-weight: bold;
+}
+
+/************ TOP SECTION *******************************/
+
+.top-container {
+    background-color: #B0C3D6;
+    position: relative;
+    padding-top: 100px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+p {
+    line-height: 2;
+}
+
+/************ MIDDLE SECTION *******************************/
+
+.middle-container {
+    margin: 100px 0;
+}
+.my-skills-container{
+    margin-top: 60px;
+}
+
+.profilbild {
+    width: 10%;
+}
+
+.software-engineering {
+    width: 15%;
+    float: left;
+    margin-right: 30px;
+}
+
+.biogeochem {
+    width: 15%;
+    float: right;
+    margin-left: 30px;
+}
+
+.gardening {
+    width: 15%;
+    float: left;
+    margin-right: 30px;
+}
+
+/************ BOTTOM SECTION *******************************/
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.contact-me-container {
+    width: 50%;
+    margin: 40px auto 100px auto;
+    line-height: 2;
+}
+
+.contact-me-text {
+    text-align: center;
+}
+
+.contact-message {
+    margin: 40px auto 60px;
+}
+
+hr {
+    border: none;
+    border-top: dotted;
+    border-width: 8px;
+    width: 5%;
+    color: #E5DEE0;
+    margin: 100px auto 100px;
+}
+
+a {
+    color: ##2665BD;
+    padding-right: 50px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #01B0E7;
+    text-decoration: none;
+}
+
+.contacts {
+    background-color: #B0C3D6;
+    padding: 50px;
+    line-height: 3;
+}
+
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+	background-color:#007dc1;
+	border-radius:3px;
+	border:1px solid #124d77;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #154682;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+	background-color:#0061a7;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
